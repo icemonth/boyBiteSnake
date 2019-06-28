@@ -4,6 +4,7 @@ import { Provider } from 'react-redux'
 import { store } from '../../redux/store'
 import { getRouter } from 'router'
 import mockdata from 'mock'
+import './index.less'
 
 export default class Main extends React.Component{
     render(){
